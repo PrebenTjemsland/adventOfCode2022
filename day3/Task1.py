@@ -1,4 +1,4 @@
-from curses.ascii import isupper, islower
+from curses.ascii import isupper
 
 point = 0
 data = [x.strip() for x in open('Dataset.txt', 'r')]
