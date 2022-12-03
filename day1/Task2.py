@@ -11,6 +11,5 @@ with open('Dataset.txt') as f:
         else: 
             calories = int(line)
             elfsCalories += calories
-caloriesPerElf.sort(reverse=True)    
-indices = [0, 2]     
-print(sum(caloriesPerElf[:3]))       
+caloriesPerElf.sort(reverse=True)
+print(sum(caloriesPerElf[:3]))

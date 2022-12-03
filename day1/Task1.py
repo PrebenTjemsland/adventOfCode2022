@@ -13,4 +13,4 @@ with open('Dataset.txt') as f:
         else: 
             calories = int(line)
             elfsCalories += calories
-print(mostCarriedCalories)    
+print(mostCarriedCalories)
